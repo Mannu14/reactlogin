@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px 0;
+}
+#alart-msg{
+    color: rgb(219, 73, 73);
+    font-family: math;
+    font-size:clamp(6px,3vw,15px);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hadding {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.submit-1 {
+    text-align: center;
+}
+
+.submit-1 #submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-1 #submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.alert-msg {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hadding {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.alert {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit .input-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit .input-submit:hover {
+    background-color: #0056b3;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.remember-me input[type="radio"] {
+    margin-right: 5px;
+}
+
+.need-help {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.need-help:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    text-align: center;
+}
+
+.create-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
